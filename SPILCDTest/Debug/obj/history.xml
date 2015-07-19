@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -std=gnu99 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\..\..\Users\DesignDesk\Desktop\Assets\FreeRTOSProject\FreeRTOS\include -I..\..\..\..\..\Users\DesignDesk\Desktop\IliSPItest -I..\..\..\..\..\Users\DesignDesk\Desktop\Assets\FreeRTOSProject\FreeRTOS\portable -I..\..\..\..\..\Users\DesignDesk\Desktop\Assets\FreeRTOSProject\FreeRTOS\portable\GCC -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\widgets -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\source\include -I..\..\..\..\..\Users\DesignDesk -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\Apps -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis_lib -I..\..\..\..\..\Users\DesignDesk\Desktop\Assets\FreeRTOSProject -I..\..\..\..\..\Users\DesignDesk\Desktop -I..\..\..\..\..\Users\DesignDesk\Desktop\Assets\FreeRTOSProject\FreeRTOS\portable\GCC\ARM_CM4F -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis_boot -I..\..\..\..\..\Users\DesignDesk\Desktop\Assets\FreeRTOSProject\FreeRTOS -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis_lib\include -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis">
+      <target file="tasks.o" lastModified="14e9b5e4ea4">
+         <source file="..\..\..\..\Assets\FreeRTOSProject\FreeRTOS\tasks.c" lastModified="14348168cd0"/>
+      </target>
+      <target file="croutine.o" lastModified="14e9b5e52e8">
+         <source file="..\..\..\..\Assets\FreeRTOSProject\FreeRTOS\croutine.c" lastModified="14348168cd0"/>
+      </target>
+      <target file="heap_2.o" lastModified="14e9b5e5683">
+         <source file="..\..\..\..\Assets\FreeRTOSProject\FreeRTOS\portable\MemMang\heap_2.c" lastModified="14348168cd0"/>
+      </target>
+      <target file="queue.o" lastModified="14e9b5e525b">
+         <source file="..\..\..\..\Assets\FreeRTOSProject\FreeRTOS\queue.c" lastModified="14348168cd0"/>
+      </target>
+      <target file="list.o" lastModified="14e9b5e4fcc">
+         <source file="..\..\..\..\Assets\FreeRTOSProject\FreeRTOS\list.c" lastModified="14348168cd0"/>
+      </target>
+      <target file="port.o" lastModified="14e9b5e51b0">
+         <source file="..\..\..\..\Assets\FreeRTOSProject\FreeRTOS\portable\GCC\ARM_CM4F\port.c" lastModified="14348168cd0"/>
+      </target>
+      <target file="timers.o" lastModified="14e9b5e4ca4">
+         <source file="..\..\..\..\Assets\FreeRTOSProject\FreeRTOS\timers.c" lastModified="14348168cd0"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -std=gnu99 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\..\..\Users\DesignDesk\Desktop -I..\..\..\..\..\Users\DesignDesk\Desktop\IliSPItest -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis_boot -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis_lib\include -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\widgets -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\source\include -I..\..\..\..\..\Users\DesignDesk -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\Apps -I..\..\..\..\..\Users\DesignDesk\Desktop\SPILCDTest\cmsis_lib">
+      <target file="keyinputs.o" lastModified="14ea58bd712">
+         <source file="..\..\..\Apps\keyinputs.c" lastModified="14e834da94c"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="14ea58bd4ce">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14e63379d05"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14ea58bd25e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14b96d6779d"/>
+      </target>
+      <target file="bluetooth_usart.o" lastModified="14ea58bd5e4">
+         <source file="..\..\..\Apps\bluetooth_usart.c" lastModified="14ea2586367"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="14ea58bd6bb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="14bd4cbc86c"/>
+      </target>
+      <target file="timewidget.o" lastModified="14ea5c50f49">
+         <source file="..\..\..\widgets\timewidget.c" lastModified="14ea5c4fd69"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="14ea58bca43">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14e633e7830"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14ea58bcbcb">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14e821929be"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="14ea58bcf44">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="14b96d74ce1"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14ea58bd2ac">
+         <source file="..\..\..\..\AngularSeries\system_stm32f4xx.c" lastModified="14e82109b76"/>
+      </target>
+      <target file="printf.o" lastModified="14ea58bd1fc">
+         <source file="..\..\..\stdio\printf.c" lastModified="14d62fc7e30"/>
+      </target>
+      <target file="misc.o" lastModified="14ea58bd51e">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14bd480a2e5"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14ea58bd404">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14e9b53cfea"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="14ea58bd47a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14e81f47f6a"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14ea58bcce7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14b96d5ff1d"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="14ea58bcb87">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="14d62ca28e5"/>
+      </target>
+      <target file="ili9163.o" lastModified="14ea58bceb0">
+         <source file="..\..\..\..\IliSPItest\ili9163.c" lastModified="14e9b6f9d57"/>
+      </target>
+      <target file="syscalls.o" lastModified="14ea58bd360">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14e8274e122"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14ea58bcaf0">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14bd47babcc"/>
+      </target>
+      <target file="main.o" lastModified="14ea5a761b0">
+         <source file="..\..\..\main.c" lastModified="14ea5a71084"/>
+      </target>
+   </processor>
+</history>

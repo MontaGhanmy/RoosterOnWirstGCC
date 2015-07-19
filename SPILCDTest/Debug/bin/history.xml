@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=SPILCDTest.map -O0 --gc-sections -LD:\CooCox\CoIDE\configuration\ProgramData\SPILCDTest -TD:\CooCox\CoIDE\configuration\ProgramData\SPILCDTest/arm-gcc-link.ld -g">
+      <target file="SPILCDTest.elf" lastModified="14ea5c51451">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="14ea58bca43"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14ea58bcaf0"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="14ea58bcb87"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14ea58bcbcb"/>
+         <source file="..\obj\main.o" lastModified="14ea5a761b0"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14ea58bcce7"/>
+         <source file="..\obj\timewidget.o" lastModified="14ea5c50f49"/>
+         <source file="..\obj\ili9163.o" lastModified="14ea58bceb0"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="14ea58bcf44"/>
+         <source file="..\obj\printf.o" lastModified="14ea58bd1fc"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14ea58bd25e"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14ea58bd2ac"/>
+         <source file="..\obj\syscalls.o" lastModified="14ea58bd360"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="14ea58bd404"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14ea58bd47a"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="14ea58bd4ce"/>
+         <source file="..\obj\misc.o" lastModified="14ea58bd51e"/>
+         <source file="..\obj\bluetooth_usart.o" lastModified="14ea58bd5e4"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="14ea58bd6bb"/>
+         <source file="..\obj\keyinputs.o" lastModified="14ea58bd712"/>
+      </target>
+   </processor>
+</history>
